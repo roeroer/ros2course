@@ -104,29 +104,36 @@ def test_required_structure_present() -> None:
 
 def test_package_folder_names_not_duplicated_elsewhere() -> None:
     """
-    Ensure the package directory names only appear in the allowed locations.
-
-    This forbids duplicated occurrences of the directory names anywhere else.
+    Ensure the package directory names appear only:
+    - as the top-level package folder, or
+    - for the cmake package, as the third segment in
+      'ros2-sample-package-cmake/include/ros2-sample-package-cmake'.
     """
     repo_root = Path(__file__).resolve().parents[1]
     actual_dirs, _ = _gather_paths(repo_root)
 
-    forbidden_names = {
-        'ros2-sample-package-python',
-        'ros2-sample-package-cmake',
-    }
-
-    allowed_paths = {
-        'ros2-sample-package-python',
-        'ros2-sample-package-python/ros2-sample-package-python',
-        'ros2-sample-package-cmake',
-        'ros2-sample-package-cmake/include/ros2-sample-package-cmake',
-    }
+    py_name = 'ros2-sample-package-python'
+    cmake_name = 'ros2-sample-package-cmake'
 
     violations: list[str] = []
+
     for d in actual_dirs:
         parts = d.split('/')
-        if any(part in forbidden_names for part in parts) and d not in allowed_paths:
+
+        if py_name in parts and parts[0] != py_name:
+            violations.append(d)
+            continue
+
+        if cmake_name in parts:
+            if parts[0] == cmake_name:
+                continue
+            if (
+                len(parts) >= 3
+                and parts[0] == cmake_name
+                and parts[1] == 'include'
+                and parts[2] == cmake_name
+            ):
+                continue
             violations.append(d)
 
     assert not violations, (
