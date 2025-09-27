@@ -1,9 +1,4 @@
-"""
-Test the overall structure of the directory.
-
-This `pytest` checks if the directory was correctly structured, and the
-tutorial was correctly followed.
-"""
+# tests/test_structure_correct.py
 from pathlib import Path
 
 
@@ -21,8 +16,8 @@ def _gather_paths(root: Path) -> tuple[set[str], set[str]]:
     """
     Collect directory and file paths relative to repo root.
 
-    - Skips common transient artifacts.
-    - Skips contents inside 'tests/' (but not the folder itself).
+    Skips common transient artifacts and anything inside 'tests/' (but not the
+    folder itself).
     """
     dirs: set[str] = set()
     files: set[str] = set()
@@ -104,10 +99,10 @@ def test_required_structure_present() -> None:
 
 def test_package_folder_names_not_duplicated_elsewhere() -> None:
     """
-    Ensure the package directory names appear only:
-    - as the top-level package folder, or
-    - for the cmake package, as the third segment in
-      'ros2-sample-package-cmake/include/ros2-sample-package-cmake'.
+    Ensure package directory names appear only in allowed locations.
+
+    Allowed: as the top-level package folder; and for the CMake package, as the
+    third segment in 'ros2-sample-package-cmake/include/ros2-sample-package-cmake'.
     """
     repo_root = Path(__file__).resolve().parents[1]
     actual_dirs, _ = _gather_paths(repo_root)
@@ -120,10 +115,12 @@ def test_package_folder_names_not_duplicated_elsewhere() -> None:
     for d in actual_dirs:
         parts = d.split('/')
 
+        # Python package name must only appear as the top-level segment.
         if py_name in parts and parts[0] != py_name:
             violations.append(d)
             continue
 
+        # CMake package name is allowed as top-level segment or specific include path.
         if cmake_name in parts:
             if parts[0] == cmake_name:
                 continue
