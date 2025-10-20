@@ -1,0 +1,25 @@
+[0.697s] Invoking command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/build --no-deps symlink_data
+[0.960s] running develop
+[1.104s] running egg_info
+[1.104s] creating listener_node.egg-info
+[1.119s] writing listener_node.egg-info/PKG-INFO
+[1.119s] writing dependency_links to listener_node.egg-info/dependency_links.txt
+[1.119s] writing entry points to listener_node.egg-info/entry_points.txt
+[1.119s] writing requirements to listener_node.egg-info/requires.txt
+[1.119s] writing top-level names to listener_node.egg-info/top_level.txt
+[1.119s] writing manifest file 'listener_node.egg-info/SOURCES.txt'
+[1.289s] reading manifest file 'listener_node.egg-info/SOURCES.txt'
+[1.289s] writing manifest file 'listener_node.egg-info/SOURCES.txt'
+[1.303s] running build_ext
+[1.303s] Creating /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/lib/python3.12/site-packages/listener-node.egg-link (link to .)
+[1.303s] Installing listener script to /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/lib/listener_node
+[1.303s] Installing service_client script to /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/lib/listener_node
+[1.304s] 
+[1.304s] Installed /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node
+[1.304s] running symlink_data
+[1.304s] creating /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/share/ament_index
+[1.304s] creating /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/share/ament_index/resource_index
+[1.304s] creating /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/share/ament_index/resource_index/packages
+[1.304s] symbolically linking /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/resource/listener_node -> /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/share/ament_index/resource_index/packages
+[1.304s] symbolically linking /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/package.xml -> /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/share/listener_node
+[1.356s] Invoked command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/listener_node/build --no-deps symlink_data

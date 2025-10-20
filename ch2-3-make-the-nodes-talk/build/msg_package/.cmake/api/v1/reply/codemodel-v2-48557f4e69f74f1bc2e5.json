@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c181ca2eaf5bf2cee6f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "msg_package__py",
+					"jsonFile" : "directory-msg_package__py-19f624654ed0b3124d76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/msg_package__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "msg_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_msg_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_msg_package_egg-2ad70ceec3f0d8faa382.json",
+					"name" : "ament_cmake_python_build_msg_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_msg_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_msg_package-0a92a599f8090c282fbc.json",
+					"name" : "ament_cmake_python_symlink_msg_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package-2b96322f1860f6034506.json",
+					"name" : "msg_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__cpp-df6d2c53197affb2b01f.json",
+					"name" : "msg_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "msg_package__py::@faa9f496ccfe44ebd95d",
+					"jsonFile" : "target-msg_package__py-964fe4d5dc4eff7efdbf.json",
+					"name" : "msg_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_generator_c-c0ebc4575dfbd1d9d3a6.json",
+					"name" : "msg_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_generator_py-b0f01e735e51684b08bd.json",
+					"name" : "msg_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_generator_type_description-923f88e711858e38a3c7.json",
+					"name" : "msg_package__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_c-c70dfea293183ae7e5fe.json",
+					"name" : "msg_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_cpp-28c366b1726ac18ea013.json",
+					"name" : "msg_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_fastrtps_c-ae63c4ce1502c92e60ae.json",
+					"name" : "msg_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_fastrtps_cpp-581b57391dc154ed1259.json",
+					"name" : "msg_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_introspection_c-f3c3c0c74b5e18306644.json",
+					"name" : "msg_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package__rosidl_typesupport_introspection_cpp-1007439119c1a1832a64.json",
+					"name" : "msg_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package_s__rosidl_typesupport_c-1b3fd1fe39091be7fd46.json",
+					"name" : "msg_package_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package_s__rosidl_typesupport_fastrtps_c-fb92456d094be3a3dc7c.json",
+					"name" : "msg_package_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package_s__rosidl_typesupport_introspection_c-9d3caa2046a5023a5d61.json",
+					"name" : "msg_package_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_package_uninstall-dcc6b185cdd4393c2873.json",
+					"name" : "msg_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4cec15eb3647b88e7f40.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/msg_package",
+		"source" : "/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/src/msg_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

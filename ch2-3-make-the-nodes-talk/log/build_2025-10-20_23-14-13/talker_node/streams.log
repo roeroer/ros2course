@@ -1,0 +1,56 @@
+[0.192s] Invoking command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/src/talker_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node
+[0.239s] -- The C compiler identification is GNU 13.3.0
+[0.286s] -- The CXX compiler identification is GNU 13.3.0
+[0.303s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.394s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.403s] -- Detecting CXX compiler ABI info
+[0.497s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.503s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.505s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.610s] -- Found Python3: /home/paulwetzel/anaconda3/bin/python3 (found version "3.12.7") found components: Interpreter 
+[0.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.690s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.722s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.808s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.809s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.888s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.910s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.988s] -- Found msg_package: 0.0.0 (/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake)
+[1.097s] -- Configuring done (0.9s)
+[1.107s] -- Generating done (0.0s)
+[1.110s] -- Build files have been written to: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node
+[1.124s] Invoked command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node' returned '0': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/src/talker_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node
+[1.125s] Invoking command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node -- -j16 -l16
+[1.182s] [ 50%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/server_node.cpp.o[0m
+[3.931s] [100%] [32m[1mLinking CXX executable server_node[0m
+[4.049s] [100%] Built target server_node
+[4.061s] Invoked command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node' returned '0': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node -- -j16 -l16
+[4.062s] Invoking command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node
+[4.069s] -- Install configuration: ""
+[4.070s] -- Execute custom install script
+[4.070s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/lib/talker_node/server_node
+[4.079s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/package_run_dependencies/talker_node
+[4.087s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/parent_prefix_path/talker_node
+[4.097s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.sh
+[4.107s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.dsv
+[4.116s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.sh
+[4.126s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.dsv
+[4.137s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.bash
+[4.145s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.sh
+[4.153s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.zsh
+[4.162s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.dsv
+[4.171s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.dsv
+[4.180s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/packages/talker_node
+[4.189s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig.cmake
+[4.199s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig-version.cmake
+[4.208s] -- Symlinking: /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.xml
+[4.220s] Invoked command in '/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node' returned '0': CMAKE_PREFIX_PATH=/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/msg_package:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/listener_node:/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/talker_node

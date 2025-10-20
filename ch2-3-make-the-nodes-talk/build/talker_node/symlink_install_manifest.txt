@@ -1,0 +1,16 @@
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/lib/talker_node/server_node
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/package_run_dependencies/talker_node
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/parent_prefix_path/talker_node
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.sh
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.dsv
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.sh
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.dsv
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.bash
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.sh
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.zsh
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.dsv
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.dsv
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/packages/talker_node
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig.cmake
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig-version.cmake
+/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.xml
