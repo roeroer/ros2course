@@ -24,7 +24,7 @@ def main():
     node = TransmitClient()
 
     try:
-        for i in range(5):  # send 5 requests, adjust as needed
+        for i in range(5): 
             a, b, c = i, i + 1, i + 2
             future = node.send_request(a, b, c)
             rclpy.spin_until_future_complete(node, future)
