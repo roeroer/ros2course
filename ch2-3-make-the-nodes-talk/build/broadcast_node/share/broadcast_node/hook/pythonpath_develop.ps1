@@ -1,3 +1,0 @@
-# generated from colcon_powershell/shell/template/hook_prepend_value.ps1.em
-
-colcon_prepend_unique_value PYTHONPATH "$env:COLCON_CURRENT_PREFIX\/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/broadcast_node"

@@ -1,3 +1,0 @@
-[console_scripts]
-listener = listener_node.listener:main
-service_client = listener_node.service_client:main

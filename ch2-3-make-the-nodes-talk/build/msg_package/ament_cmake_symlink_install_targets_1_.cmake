@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/paulwetzel/repo/rise-repos/exo2-new/course/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_introspection_c.so" "TARGETS" "msg_package_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/msg_package")
